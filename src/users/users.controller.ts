@@ -12,8 +12,8 @@ import {
   UseInterceptors,
 } from '@nestjs/common';
 import { UsersService } from './users.service';
-import { CreateUserDto } from './dto/create-user.dto';
-import { UpdateUserDto } from './dto/update-user.dto';
+import { CreateUserDto } from './dto/new-user.dto';
+import { UpdateUserDto } from './dto/modify-user.dto';
 import { UUIDvalidate } from 'src/UUID.validator';
 
 @UseInterceptors(ClassSerializerInterceptor)

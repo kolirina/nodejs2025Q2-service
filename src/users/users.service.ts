@@ -3,8 +3,8 @@ import {
   NotFoundException,
   ForbiddenException,
 } from '@nestjs/common';
-import { CreateUserDto } from './dto/create-user.dto';
-import { UpdateUserDto } from './dto/update-user.dto';
+import { CreateUserDto } from './dto/new-user.dto';
+import { UpdateUserDto } from './dto/modify-user.dto';
 import { User } from './user.entity';
 import { users } from 'src/db';
 
